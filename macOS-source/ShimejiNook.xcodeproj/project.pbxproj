@@ -1,0 +1,28 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+A1 /* Project */ = {isa=PBXProject; buildConfigurationList=C1; compatibilityVersion="Xcode 14.0"; developmentRegion=en; mainGroup=G1; productRefGroup=GP; projectDirPath=""; targets=(T1,);};
+G1={isa=PBXGroup; children=(GS,GA,GP); sourceTree="<group>";};
+GS={isa=PBXGroup; name=Sources; path=ShimejiNook; sourceTree="<group>"; children=(F1,F2,F3,F4,F5);};
+GA={isa=PBXGroup; name=Resources; path=ShimejiNook; sourceTree="<group>"; children=(FA,FI);};
+GP={isa=PBXGroup; name=Products; children=(APP); sourceTree="<group>";};
+F1={isa=PBXFileReference; lastKnownFileType=sourcecode.swift; path=AppDelegate.swift; sourceTree="<group>";};
+F2={isa=PBXFileReference; lastKnownFileType=sourcecode.swift; path=CompanionPanel.swift; sourceTree="<group>";};
+F3={isa=PBXFileReference; lastKnownFileType=sourcecode.swift; path=CompanionController.swift; sourceTree="<group>";};
+F4={isa=PBXFileReference; lastKnownFileType=sourcecode.swift; path=WindowTracker.swift; sourceTree="<group>";};
+F5={isa=PBXFileReference; lastKnownFileType=sourcecode.swift; path=PetContextMenu.swift; sourceTree="<group>";};
+FA={isa=PBXFileReference; lastKnownFileType=folder; path=Assets; sourceTree="<group>";};
+FI /* Icon */={isa=PBXFileReference; lastKnownFileType=image.icns; path=Resources/ShimejiNookIcon.icns; sourceTree="<group>";};
+APP={isa=PBXFileReference; explicitFileType=wrapper.application; includeInIndex=0; path="Shimeji Nook.app"; sourceTree=BUILT_PRODUCTS_DIR;};
+B5={isa=PBXBuildFile; fileRef=F5;};
+B1={isa=PBXBuildFile; fileRef=F1;}; B2={isa=PBXBuildFile; fileRef=F2;}; B3={isa=PBXBuildFile; fileRef=F3;}; B4={isa=PBXBuildFile; fileRef=F4;}; BA={isa=PBXBuildFile; fileRef=FA;};
+BI={isa=PBXBuildFile; fileRef=FI;};
+T1={isa=PBXNativeTarget; buildConfigurationList=C2; buildPhases=(PS,PF,PR); buildRules=(); dependencies=(); name=ShimejiNook; productName=ShimejiNook; productReference=APP; productType="com.apple.product-type.application";};
+PS={isa=PBXSourcesBuildPhase; buildActionMask=2147483647; files=(B1,B2,B3,B4,B5); runOnlyForDeploymentPostprocessing=0;};
+PF={isa=PBXFrameworksBuildPhase; buildActionMask=2147483647; files=(); runOnlyForDeploymentPostprocessing=0;};
+PR={isa=PBXResourcesBuildPhase; buildActionMask=2147483647; files=(BA,BI); runOnlyForDeploymentPostprocessing=0;};
+C1={isa=XCConfigurationList; buildConfigurations=(PDBG,PREL); defaultConfigurationIsVisible=0; defaultConfigurationName=Release;};
+C2={isa=XCConfigurationList; buildConfigurations=(TDBG,TREL); defaultConfigurationIsVisible=0; defaultConfigurationName=Release;};
+PDBG={isa=XCBuildConfiguration; buildSettings={SWIFT_OPTIMIZATION_LEVEL="-Onone"; SWIFT_ACTIVE_COMPILATION_CONDITIONS=DEBUG; ALWAYS_SEARCH_USER_PATHS=NO;}; name=Debug;}; PREL={isa=XCBuildConfiguration; buildSettings={ALWAYS_SEARCH_USER_PATHS=NO;}; name=Release;};
+TDBG={isa=XCBuildConfiguration; buildSettings={ALWAYS_SEARCH_USER_PATHS=NO; CODE_SIGN_STYLE=Manual; CODE_SIGN_IDENTITY="-"; SDKROOT=macosx; ENABLE_APP_SANDBOX=NO; CURRENT_PROJECT_VERSION=6; GENERATE_INFOPLIST_FILE=YES; INFOPLIST_FILE=ShimejiNook/Info.plist; INFOPLIST_KEY_CFBundleDisplayName="Shimeji Nook"; INFOPLIST_KEY_CFBundleName="Shimeji Nook"; INFOPLIST_KEY_LSUIElement=YES; INFOPLIST_KEY_CFBundleIconFile=ShimejiNookIcon; MACOSX_DEPLOYMENT_TARGET=13.0; MARKETING_VERSION=0.6.0; PRODUCT_BUNDLE_IDENTIFIER=local.naph.ShimejiNook; PRODUCT_NAME="Shimeji Nook"; EXECUTABLE_NAME=ShimejiNook; SWIFT_VERSION=5.0;}; name=Debug;};
+TREL={isa=XCBuildConfiguration; buildSettings={ALWAYS_SEARCH_USER_PATHS=NO; CODE_SIGN_STYLE=Manual; CODE_SIGN_IDENTITY="-"; SDKROOT=macosx; ENABLE_APP_SANDBOX=NO; CURRENT_PROJECT_VERSION=6; GENERATE_INFOPLIST_FILE=YES; INFOPLIST_FILE=ShimejiNook/Info.plist; INFOPLIST_KEY_CFBundleDisplayName="Shimeji Nook"; INFOPLIST_KEY_CFBundleName="Shimeji Nook"; INFOPLIST_KEY_LSUIElement=YES; INFOPLIST_KEY_CFBundleIconFile=ShimejiNookIcon; MACOSX_DEPLOYMENT_TARGET=13.0; MARKETING_VERSION=0.6.0; PRODUCT_BUNDLE_IDENTIFIER=local.naph.ShimejiNook; PRODUCT_NAME="Shimeji Nook"; EXECUTABLE_NAME=ShimejiNook; SWIFT_VERSION=5.0;}; name=Release;};
+}; rootObject=A1; }
