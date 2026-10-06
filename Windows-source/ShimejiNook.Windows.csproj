@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF><EnableWindowsTargeting>true</EnableWindowsTargeting><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><ApplicationIcon>App.ico</ApplicationIcon><ApplicationManifest>app.manifest</ApplicationManifest></PropertyGroup>
+<PropertyGroup><Version>0.6.0</Version><AssemblyVersion>0.6.0.0</AssemblyVersion><FileVersion>0.6.0.0</FileVersion><Product>Shimeji Nook</Product><AssemblyName>ShimejiNook</AssemblyName><AssemblyTitle>Shimeji Nook</AssemblyTitle><Description>Desktop companion with ThungNgern and Artist models</Description><PublishSingleFile>true</PublishSingleFile><IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract><EnableCompressionInSingleFile>true</EnableCompressionInSingleFile><DebugType>None</DebugType><DebugSymbols>false</DebugSymbols></PropertyGroup>
+<ItemGroup><Content Include="../macOS-source/ShimejiNook/Assets/**/*"><Link>Assets/%(RecursiveDir)%(Filename)%(Extension)</Link><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content></ItemGroup>
+<PropertyGroup><Authors>naph_</Authors><Copyright>Copyright (c) 2026 naph_</Copyright><PackageLicenseExpression>MIT</PackageLicenseExpression></PropertyGroup>
+</Project>

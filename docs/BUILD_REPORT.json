@@ -1,0 +1,27 @@
+{
+  "application": "Shimeji Nook",
+  "version": "0.6.0",
+  "repository": "shimeji-nook",
+  "windows": {
+    "executable": "ShimejiNook.exe",
+    "platform": "win-x64",
+    "publish": "self-contained single-file",
+    "compile": "passed",
+    "runtimeOnWindows": "not checked after rename"
+  },
+  "macOS": {
+    "application": "Shimeji Nook.app",
+    "executable": "ShimejiNook",
+    "bundleIdentifier": "local.naph.ShimejiNook",
+    "architectures": [
+      "arm64",
+      "x86_64"
+    ],
+    "compile": "passed",
+    "actualUI": "both characters and Change Model inspected; selection persisted on restart"
+  },
+  "documentation": "English Markdown, with bilingual README.md",
+  "artwork": "both models preserved",
+  "releasePackages": "CRC and source asset hashes verified",
+  "publication": "not performed"
+}
