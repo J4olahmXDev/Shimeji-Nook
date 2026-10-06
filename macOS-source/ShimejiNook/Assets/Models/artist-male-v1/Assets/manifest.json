@@ -1,0 +1,245 @@
+{
+  "version": 3,
+  "modelId": "artist-male-v1",
+  "canvas": [
+    512,
+    640
+  ],
+  "pivot": [
+    256,
+    616
+  ],
+  "nativeFacing": {
+    "walk": -1,
+    "run": -1,
+    "climb": -1
+  },
+  "animations": {
+    "01_idle": {
+      "state": "idle",
+      "frames": 8,
+      "fps": 2.5,
+      "loop": true,
+      "renderScale": 1,
+      "horizontalPivot": 0.5,
+      "files": [
+        "frame_01.png",
+        "frame_02.png",
+        "frame_03.png",
+        "frame_04.png",
+        "frame_05.png",
+        "frame_06.png",
+        "frame_07.png",
+        "frame_08.png"
+      ]
+    },
+    "02_walk": {
+      "state": "walk",
+      "frames": 8,
+      "fps": 5,
+      "loop": true,
+      "renderScale": 1,
+      "horizontalPivot": 0.5,
+      "files": [
+        "frame_01.png",
+        "frame_02.png",
+        "frame_03.png",
+        "frame_04.png",
+        "frame_05.png",
+        "frame_06.png",
+        "frame_07.png",
+        "frame_08.png"
+      ]
+    },
+    "03_run": {
+      "state": "run",
+      "frames": 8,
+      "fps": 7,
+      "loop": true,
+      "renderScale": 1,
+      "horizontalPivot": 0.5,
+      "files": [
+        "frame_01.png",
+        "frame_02.png",
+        "frame_03.png",
+        "frame_04.png",
+        "frame_05.png",
+        "frame_06.png",
+        "frame_07.png",
+        "frame_08.png"
+      ]
+    },
+    "04_jump": {
+      "state": "jump",
+      "frames": 8,
+      "fps": 10,
+      "loop": false,
+      "renderScale": 1,
+      "horizontalPivot": 0.5,
+      "files": [
+        "frame_01.png",
+        "frame_02.png",
+        "frame_03.png",
+        "frame_04.png",
+        "frame_05.png",
+        "frame_06.png",
+        "frame_07.png",
+        "frame_08.png"
+      ]
+    },
+    "05_fall": {
+      "state": "fall",
+      "frames": 8,
+      "fps": 4,
+      "loop": true,
+      "renderScale": 1,
+      "horizontalPivot": 0.5,
+      "files": [
+        "frame_01.png",
+        "frame_02.png",
+        "frame_03.png",
+        "frame_04.png",
+        "frame_05.png",
+        "frame_06.png",
+        "frame_07.png",
+        "frame_08.png"
+      ]
+    },
+    "06_sit": {
+      "state": "sit",
+      "frames": 8,
+      "fps": 2.5,
+      "loop": true,
+      "renderScale": 1,
+      "horizontalPivot": 0.5,
+      "files": [
+        "frame_01.png",
+        "frame_02.png",
+        "frame_03.png",
+        "frame_04.png",
+        "frame_05.png",
+        "frame_06.png",
+        "frame_07.png",
+        "frame_08.png"
+      ]
+    },
+    "08_sleep": {
+      "state": "sleep",
+      "frames": 8,
+      "fps": 1.5,
+      "loop": true,
+      "renderScale": 1,
+      "horizontalPivot": 0.5,
+      "files": [
+        "frame_01.png",
+        "frame_02.png",
+        "frame_03.png",
+        "frame_04.png",
+        "frame_05.png",
+        "frame_06.png",
+        "frame_07.png",
+        "frame_08.png"
+      ]
+    },
+    "09_climb_hang": {
+      "state": "climb",
+      "frames": 8,
+      "fps": 4.5,
+      "loop": true,
+      "renderScale": 1,
+      "horizontalPivot": 0.5,
+      "files": [
+        "frame_01.png",
+        "frame_02.png",
+        "frame_03.png",
+        "frame_04.png",
+        "frame_05.png",
+        "frame_06.png",
+        "frame_07.png",
+        "frame_08.png"
+      ]
+    },
+    "10_wave": {
+      "state": "wave",
+      "frames": 8,
+      "fps": 4,
+      "loop": true,
+      "renderScale": 1,
+      "horizontalPivot": 0.5,
+      "files": [
+        "frame_01.png",
+        "frame_02.png",
+        "frame_03.png",
+        "frame_04.png",
+        "frame_05.png",
+        "frame_06.png",
+        "frame_07.png",
+        "frame_08.png"
+      ],
+      "playbackOrder": [
+        0,
+        1,
+        6,
+        7,
+        6,
+        1,
+        0,
+        1
+      ]
+    },
+    "14_happy": {
+      "state": "happy",
+      "frames": 8,
+      "fps": 4,
+      "loop": true,
+      "renderScale": 1,
+      "horizontalPivot": 0.5,
+      "files": [
+        "frame_01.png",
+        "frame_02.png",
+        "frame_03.png",
+        "frame_04.png",
+        "frame_05.png",
+        "frame_06.png",
+        "frame_07.png",
+        "frame_08.png"
+      ]
+    },
+    "18_interactions": {
+      "state": "drag",
+      "frames": 8,
+      "fps": 4,
+      "loop": true,
+      "renderScale": 1,
+      "horizontalPivot": 0.5,
+      "files": [
+        "frame_01.png",
+        "frame_02.png",
+        "frame_03.png",
+        "frame_04.png",
+        "frame_05.png",
+        "frame_06.png",
+        "frame_07.png",
+        "frame_08.png"
+      ]
+    },
+    "19_talk": {
+      "state": "talk",
+      "frames": 8,
+      "fps": 4,
+      "loop": true,
+      "renderScale": 1,
+      "horizontalPivot": 0.5,
+      "files": [
+        "frame_01.png",
+        "frame_02.png",
+        "frame_03.png",
+        "frame_04.png",
+        "frame_05.png",
+        "frame_06.png",
+        "frame_07.png",
+        "frame_08.png"
+      ]
+    }
+  }
+}
